@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float a, b;
+	cout << "Podaj Liczby: \n";
+	cin >> a, cout << " | \n", cin >> b;
+	if (a == b)
+	{
+		cout << "\nLiczby sa rowne";
+	}
+	else if (a > b)
+	{
+		cout << "\nLiczba a jest wieksza";
+	}
+	else
+	{
+		cout << "\nLiczba b jest wieksza";
+	}
+}
