@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float a, b, c, d;
+	cout << "Podaj liczby: ";
+	cin >> a;
+	cout << " ; ";
+	cin >> b;
+	cout << " ; ";
+	cin >> c;
+	cout << " ; ";
+	cin >> d;
+	cout << " ; ";
+	cout << "Srenia tych liczb to: " << (a + b + c + d) / 4;
+
+}
